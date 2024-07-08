@@ -3,13 +3,22 @@
 }
 
 p {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(62, 3, 65);
 }
  h2 {
+    font-size: 30px;
     background-color: blue;
  }
 
 .title{
     color: brown
+}
+
+#principal{
+    font-size: 60px;
+}
+
+.logo {
+width: 200px 
 }
