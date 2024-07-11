@@ -22,9 +22,31 @@ color: aliceblue;
 }
 
 #principal{
-    font-size: 60px;
+    font-size: 3em;
 }
 
 .logo {
-width: 200px 
+width: 200px;
+
+}
+#textos{
+border: 2px solid red;
+width: 50vw;
+margin: auto;
+padding: 1em;
+
+}
+
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 1em 0px 1em;
+    border-radius: 10%;
+    transition: 0.5s;
+    
+}
+
+.cards:hover{
+    background-color: rgb(4, 247, 247);
 }
