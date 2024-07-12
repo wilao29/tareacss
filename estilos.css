@@ -18,7 +18,8 @@ color: aliceblue;
  }
 
 .title{
-    color: brown
+    color: brown;
+    font-size: 50px;
 }
 
 #principal{
@@ -27,13 +28,16 @@ color: aliceblue;
 
 .logo {
 width: 200px;
+height: 200px;
 
 }
 #textos{
-border: 2px solid red;
+
 width: 50vw;
 margin: auto;
 padding: 1em;
+display: flex;
+flex-direction: column;
 
 }
 
@@ -41,12 +45,33 @@ padding: 1em;
 .cards{
     border: 2px solid black;
     width: fit-content;
-    padding: 0px 1em 0px 1em;
+    padding: 2em 1em 1em 1em;
     border-radius: 10%;
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
     
 }
 
 .cards:hover{
-    background-color: rgb(4, 247, 247);
+    background-color: rgb(47, 170, 10);
+}
+
+.tituloscartas{
+    font-size: 30px;
+}
+
+#cards-container{
+   
+    width: 85vw;
+    margin: auto;
+    margin-top: 1,5em;
+    border: 5px solid rgb(63, 60, 60);
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
